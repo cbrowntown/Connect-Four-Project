@@ -83,7 +83,7 @@ function endGame(msg) {
   // TODO: pop up alert message
   setTimeout(() => {
     return alert(msg);
-  }, 0);
+  }, 100);
   isGameOver = true;
 }
 
