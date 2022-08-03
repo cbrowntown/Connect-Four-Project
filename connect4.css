@@ -30,7 +30,8 @@ h1 {
   width: 80%;
   height: 80%;
   border-radius: 50%;
-  border: solid black 3px;
+  /* border: solid black 3px;  */
+  /* the border is pushing the div to the right? */
 }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
