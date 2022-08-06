@@ -63,7 +63,7 @@ function findSpotForCol(x) {
     if (board[HEIGHT - i][x] === null) {
       return (HEIGHT) - i;
     }
-  }
+  } return null;
 }
 
 /** placeInTable: update DOM to place piece into HTML table of board */
